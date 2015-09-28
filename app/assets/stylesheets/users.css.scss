@@ -1,0 +1,58 @@
+/* Users Show Page Styles */
+.user-show-avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.instrument-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #2e6da4;
+  border-radius: 4px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+
+}
+
+.well.profile-block {
+  color: #fff;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.well.profile-description {
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.well.contact-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* Users Index Page Styles */
+.user-index-avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+//.image-style {
+////  border-radius: 50%;
+//  border: 2px solid white;
+//  -webkit-box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+//  -moz-box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+//  box-shadow: 0px 6px 4px 0px rgba(50, 50, 50, 0.75);
+//
+//}
+
+//.well.white-bg {
+//  background-color: white;
+//
+//}

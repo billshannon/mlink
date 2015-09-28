@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>MusicianLink</title>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= stylesheet_link_tag href='/static/css/bootstrap.css', type='text/css' %>
+
+  <%= tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY %>
+  <%= csrf_meta_tags %>
+</head>
+<body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid"><!-- Brand and toggle get grouped for better mobile display-->
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span
+      class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a href="/" class="navbar-brand page-scroll">MusicianLink.io</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling-->
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div class="header-content">
+    <div class="header-content-inner"><h1>Where musicians connect.</h1>
+      <hr>
+      <p>MusicianLink allows you to easily connect with professional musicians in your area.</p>                <a
+    href="/users/new" class="btn btn-primary btn-xl page-scroll">Sign up now!</a></div>
+  </div>
+</header>
+<section id="about" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center"><h2 class="section-heading">Get your groove on.</h2>
+        <hr class="light">
+        <p class="text-faded">Join today and get connected with professional musicians.</p>
+        <a href="/users/new" class="btn btn-default btn-xl">Get Started!</a></div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center"><h2 class="section-heading">Networking, at your finger tips.</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box"><i class="fa fa-4x fa-globe wow bounceIn text-primary"></i>
+
+          <h3>Easy Connections</h3>
+
+          <p class="text-muted">Join the thousands of seeking musicians and bands.</p></div>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box"><i data-wow-delay=".2s"
+                                    class="fa fa-4x fa-newspaper-o wow bounceIn text-primary"></i>
+
+          <h3>Access Anywhere</h3>
+
+          <p class="text-muted">Your next gig is waiting.</p></div>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box"><i data-wow-delay=".3s"
+                                    class="fa fa-4x fa-heart wow bounceIn text-primary"></i>
+
+          <h3>Safe and Secure</h3>
+
+          <p class="text-muted">We protect your data with the utmost integrity. Your privacy is our
+            priority.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<aside class="bg-dark">
+  <div class="container text-center">
+    <div class="call-to-action"><h2>Meet musicians like you!</h2>                <a href="/users/new"
+                                                                                    class="btn btn-default btn-xl wow tada">Join
+      now for free!</a></div>
+  </div>
+</aside>
+<section id="portfolio" class="no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img
+      src="../images/portfolio/guitarists.jpg" alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with guitarists</div>
+            <div class="project-name">Guitar</div>
+          </div>
+        </div>
+      </a></div>
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img
+      src="../images/portfolio/vocalists.jpg" alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with singers</div>
+            <div class="project-name">Vocals</div>
+          </div>
+        </div>
+      </a></div>
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img
+      src="../images/portfolio/drummers.jpg" alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with drummers</div>
+            <div class="project-name">Drums</div>
+          </div>
+        </div>
+      </a></div>
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img
+      src="../images/portfolio/bassists.jpg" alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with bassists</div>
+            <div class="project-name">Bass</div>
+          </div>
+        </div>
+      </a></div>
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img
+      src="../images/portfolio/keyboards.jpg" alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with keyboardists</div>
+            <div class="project-name">Keys</div>
+          </div>
+        </div>
+      </a></div>
+      <div class="col-lg-4 col-sm-6"><a href="#" class="portfolio-box"><img src="../images/portfolio/horns.jpg"
+                                                                            alt="" class="img-responsive">
+
+        <div class="portfolio-box-caption">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">Connect with horn players</div>
+            <div class="project-name">Horns</div>
+          </div>
+        </div>
+      </a></div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center"><h2 class="section-heading">Who we are</h2>
+        <hr class="primary">
+        <p>At MusicianLink.io, we love to connect like musicians together for the benefit of all.</p></div>
+      <div class="col-lg-4 col-lg-offset-2 text-center"><i class="fa fa-phone fa-3x wow bounceIn"></i>
+
+        <p>800-4Pro-Jam</p></div>
+      <div class="col-lg-4 text-center"><i data-wow-delay=".1s" class="fa fa-envelope-o fa-3x wow bounceIn"></i>
+
+        <p><a href="mailto: info@musicianlink.io">Email us!</a></p></div>
+    </div>
+  </div>
+</section>
+<%= javascript_include_tag src="/static/js/jquery.js", type: 'text/javascript' %>
+<%= javascript_include_tag src="/static/js/bootstrap.min.js", type: 'text/javascript' %>
+<%= javascript_include_tag src="/static/js/jquery.easing.min.js", type: 'text/javascript' %>
+<%= javascript_include_tag src="/static/js/jquery.fittext.js", type: 'text/javascript' %>
+<%= javascript_include_tag src="/static/js/wow.min.js", type: 'text/javascript' %>
+<%= javascript_include_tag src="/static/js/creative.js", type: 'text/javascript' %>
+</body>
+</html>
