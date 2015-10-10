@@ -31,6 +31,11 @@ form {
   border-radius: 8px;
 }
 
+form.button_to {
+    background: transparent;
+    margin: -8px auto 20px;
+}
+
 
 h1 {
   /*margin: 0 0 30px 0;*/
